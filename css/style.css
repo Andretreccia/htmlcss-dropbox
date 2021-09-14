@@ -45,7 +45,7 @@ body{
 .debug .section{
     border: 1px solid black;
     background-color: beige;
-    height: 1000px;
+   /*  height: 1000px; */
 }
 .debug .container.large{
     background-color: aqua;
@@ -55,8 +55,8 @@ body{
 }
 
 .debug .container.thin{
-    background-color: cadetblue;
-    height: 1000px;
+   /*  background-color: cadetblue; */
+   /*  height: 1000px; */
     width: 1000px;
 }
 .debug .container.wide{
@@ -148,11 +148,13 @@ body{
     font-size: 2rem;
     margin: 2rem 0;
 }
+.card{
+    border: 1px solid gray;
+}
             /* colonna */
 .row.plans .column{
     width: 30%;
     height: 700px;
-    border: 1px solid gray;
     margin: 1rem;
 }
     .column h3{
@@ -162,11 +164,9 @@ body{
     .ticket{
         padding: 0.5rem;
         text-align: center;
+        border-bottom: 1px solid gray;
     }
-    .plan{
-        border-top: 1px solid gray;
-    }
-        .column ul{
+      .column ul{
             list-style: none;
             margin: 1rem;
             font-size: 0.9rem;
@@ -175,13 +175,14 @@ body{
         .plan li{
             margin: 1rem 0;
         }
-         .plan .button{
+         .plans .button{
             text-align: center;
             padding: 1.5rem 0;
             font-size: 0.8rem;
          }
-         .plan .btn{
+         .plans .btn{
              padding: 0.5rem 3rem;
+             font-size: small;
          }
          .price{
              font-weight: 900;
@@ -197,9 +198,19 @@ body{
              margin:2rem;
              
          }
-        .highlights h4{
+        .plans h4{
             margin: 1rem;
         }
          .highlights i{
              color:royalblue;
          }
+.card.wide {
+            width: 60.3rem;
+            font-size: small;
+}
+        .card.wide .btn{
+            text-align: right;
+        }
+        .column.text_large{
+        width: 60%;
+        }
