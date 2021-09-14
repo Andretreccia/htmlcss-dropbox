@@ -4,12 +4,17 @@
     padding: 0;
     margin: 0;
 }
-.clearfix{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
-
+a{
+    text-decoration:none;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+}
 /*******Utility*******
 **********************/
 .thin{
@@ -20,12 +25,20 @@
     width: 80%;
     margin: auto;
 }
-
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.btn {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    
+}
 /****** Debug *******
 ********************/
-.debug header{
-    height: 100px;
-}
+
 .debug .section{
     border: 1px solid black;
     background-color: beige;
@@ -34,16 +47,60 @@
 .debug .container.large{
     background-color: aqua;
     height: 600px;
+    width: 1500px;
+    margin: auto;
 }
 
 .debug .container.thin{
     background-color: cadetblue;
     height: 600px;
+    width: 1200px;
 }
 .debug .container.wide{
     background-color: darkseagreen;
     height: 600px;
+    width: 1400px;
 }
 .debug footer{
-    background-color: darkslategray;
+    background-color:gray;
 }
+
+ */
+/********* Header **************
+*******************************/
+#siteheader{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container.head{
+    width: 1400px;
+    margin: auto;
+}
+.logo{
+    width: 13%
+}
+    .logo_img{
+        padding: 0.8rem 
+    }
+.links{
+    width: 80%;
+}
+    .link{
+        padding: 1rem;
+}
+    .link a{
+        color: black;
+        font-weight: bold;
+    }
+
+.start{
+    width: 7%;
+    padding: 1rem;
+}
+    .start .btn{
+            background-color: dodgerblue;
+            color: white;
+        }
+
+    	
