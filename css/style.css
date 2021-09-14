@@ -31,13 +31,15 @@ body{
 .float_right{
     float: right;
 }
-.btn {
-    padding: 0.5rem 1rem;
-    font-weight: bold; 
-}
 .btn.color{
     background-color:dodgerblue;
     color: white;
+}
+.btn.white{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 0.5rem 1rem;
 }
 /****** Debug *******
 ********************/
@@ -204,6 +206,7 @@ body{
          .highlights i{
              color:royalblue;
          }
+            /* enterpirse */
 .card.wide {
             width: 60.3rem;
             font-size: small;
@@ -214,3 +217,24 @@ body{
         .column.text_large{
         width: 60%;
         }
+        .card.wide p{
+            margin: 1rem;
+        }
+        /* Partner Section */
+        .partner .row{
+            padding-top: 5rem;
+        }
+        .partner .column{
+            width: 50%;
+            height: 400px;
+        }
+            .partner img{
+                height: 350px;
+                margin: 1rem 1rem;
+            }
+            .partner p{
+                margin: 1rem;
+            }
+            .partner .button{
+                margin: 2rem 1rem;
+            }
