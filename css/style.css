@@ -22,7 +22,7 @@ p{
     font-size: 15px;
 }
 h2{
-    font-size: 37px;
+    font-size: 35px;
     margin: 2rem 0;
 }
 h3{
@@ -60,15 +60,22 @@ h4{
     color: black;
     padding: 0.5rem 1rem;
 }
-.col_50{
-    width: 50%;
-}
+
+
 .col_65{
     width: 65%;
 }
+.col_50{
+    width: 50%;
+}
+.col_40{
+    width: 40%;
+}            
 .col_35{
     width: 35%;
-    height: 60px;
+}
+.col_30{
+    width: 30%;
 }
 .col_33{
     width: 33.3%;
@@ -86,14 +93,14 @@ h4{
 } */
 .debug .container.large{
     background-color: aqua;
-    height: 600px;
+    /* height: 600px; */
     width: 1500px;
     margin: auto;
 }
 
 .debug .container.thin{
-   /*  background-color: cadetblue; */
-   /*  height: 1000px; */
+    background-color: cadetblue;
+    /* height: 1500px; */
     width: 1000px;
 }
 .debug .container.wide{
@@ -104,8 +111,18 @@ h4{
 .debug footer{
     background-color:gray;
 }
-
-
+.debug .col_30{
+    height: 450px;
+    background-color: lightgreen;
+}
+.debug .col_40{
+    height: 450px;
+    background-color: lightpink;
+}
+.debug .col_50{
+    height: 50%;
+    border: 1px solid black;
+}
 /********* Header **************
 *******************************/
 #siteheader{
