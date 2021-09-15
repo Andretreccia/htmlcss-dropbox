@@ -32,7 +32,7 @@ h3{
 h4{
     margin: 1rem 0;
 }
-hr{
+.hr{
         color: gray;
         width: 50px;
         margin: 20px 0;
@@ -326,4 +326,22 @@ hr{
 .trial .col_35{
     padding: 120px 0 0 70px;
 }
-    
+/* **********************
+*****FAQ SECTION ********/
+.faq{
+    padding: 2rem 0;
+    position: relative;
+}
+.question, .arrow{
+    display: inline;
+}
+.arrow{
+    position: absolute;
+    right: 0rem;
+}
+.appear{
+    display: none;
+}
+.faq:hover .appear{
+    display:inline-block;
+}
