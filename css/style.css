@@ -93,6 +93,44 @@ hr{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/*********COLOR UTILITY **************
+********************************/
+/* color */
+.cbrd{
+    color:   rgba(97, 8, 43, 1);
+}
+/* background */
+.ltgr{
+    background-color: rgba(162, 211, 155, 1);
+}
+.brd{
+    background-color:   rgba(97, 8, 43, 1);
+}
+.mbl{
+    background-color:   rgba(0, 147, 206, 1);
+}
+.lrd{
+    background-color:   rgba(255, 28, 28, 1);
+}
+.drd{
+    background-color:   rgba(213, 0, 31, 1);
+}
+.lbl{
+    background-color:   rgba(180, 208, 231, 1);
+}
+
+.dbl{
+    background-color:   rgba(13, 36, 129, 1);
+}
+.ylw{
+    background-color:   rgba(255, 216, 48, 1);
+}
+.lgy{
+    background-color:   rgba(244, 245, 245, 1);
+}
+.bbl{
+    background-color:   rgba(0, 97, 255, 1);
+}
 /****** Debug *******
 ********************/
 
