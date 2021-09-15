@@ -44,11 +44,11 @@ body{
 /****** Debug *******
 ********************/
 
-.debug .section{
+/* .debug .section{
     border: 1px solid black;
     background-color: beige;
-   /*  height: 1000px; */
-}
+    height: 1000px;
+} */
 .debug .container.large{
     background-color: aqua;
     height: 600px;
@@ -241,11 +241,13 @@ body{
             }
         /* Functions section */
         .functions_title h2{
-            margin: 4rem 0 2rem 0;
+            margin-top: 4rem;
 
         }
         .column.function {
         width: 33.3%;
+        margin-top: 4rem;
+        padding: 0 1rem;
         }
             .column.function img{
                  width: 100%;
