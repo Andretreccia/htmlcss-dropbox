@@ -11,9 +11,26 @@
 }
 a{
     text-decoration:none;
+    color: dodgerblue;
 }
 body{
     font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+}
+p{
+    margin: 1.5rem 0;
+    font-size: 15px;
+}
+h2{
+    font-size: 37px;
+    margin: 2rem 0;
+}
+h3{
+        font-size: 25px;
+    margin-bottom: 1rem;
+}
+h4{
+    margin: 1rem 0;
 }
 /*******Utility*******
 **********************/
@@ -34,12 +51,30 @@ body{
 .btn.color{
     background-color:dodgerblue;
     color: white;
+    padding:0.5rem 14%;
+    font-size: medium;
 }
 .btn.white{
     background-color: white;
     border: 1px solid black;
     color: black;
     padding: 0.5rem 1rem;
+}
+.col_50{
+    width: 50%;
+}
+.col_65{
+    width: 65%;
+}
+.col_35{
+    width: 35%;
+    height: 60px;
+}
+.col_33{
+    width: 33.3%;
+}
+.gray{
+    color: lightgray;
 }
 /****** Debug *******
 ********************/
@@ -63,7 +98,7 @@ body{
 }
 .debug .container.wide{
     background-color: darkseagreen;
-    height: 600px;
+    height: 550px;
     width: 1150px;
 }
 .debug footer{
@@ -106,10 +141,13 @@ body{
 }
 
 /*****************************
-********Main site************/ /* Usare piu selettori avanzati specialmente per radice nome.
+********Main site************
+*****************************/ /* Usare piu selettori avanzati specialmente per radice nome.
     	                        troppi <h> e <p> con proporzioni simili non raggruppati */
                                 /* APPLICARE UNA REGOLA COMUNE PER STRUTTURA RIGA-COLONNA!!!! */
-            /* Hero section */
+/* Hero section 
+*****************/
+
 .section.hero{
     background-color: #B4D0E7;
     padding-top: 3rem;
@@ -117,19 +155,12 @@ body{
 .hero_title{
     
     font-size: 4rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .hero_img{
     height: 400px;
     padding-left: 2rem;
-}
-.column.text{
-    width: 35%;
-}
-    .hero p{
-    font-size: 0.9rem;
-    margin-bottom: 2.5rem;
 }
     .info_register{
         font-weight: 600;
@@ -140,122 +171,79 @@ body{
         color: black;
         font-size: 2rem;
     }
-.column.image{
-    width: 65%;
-}
-        /* Planes section */
+
+/* Planes section *
+*******************/
+
 .section.plans{
     padding-top: 8rem;
 }
-.section.plans h2{
-    font-size: 2rem;
-    margin: 2rem 0;
-}
+
 .card{
-    border: 1px solid gray;
+    border: 1px solid lightgray;
+    height: 100%;
+    padding: 0 20px;
 }
-            /* colonna */
-.row.plans .column{
-    width: 30%;
-    height: 700px;
-    margin: 1rem;
-}
-    .column h3{
-        margin: 1rem;
-        font-size: 1.5rem;
+    /* colonna */
+
+    .row.plans{
+        margin: 2rem -1rem;
+    }
+    .row.plans .col_33{
+        padding: 0 1rem;
+        height: 850px;  
     }
     .ticket{
         padding: 0.5rem;
         text-align: center;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid lightgray;
+        margin: 0px -20px 25px -20px;
     }
-      .column ul{
-            list-style: none;
-            margin: 1rem;
+    .col_33 ul{
+    list-style: none;
             font-size: 0.9rem;
-        }
-       
-        .plan li{
-            margin: 1rem 0;
-        }
-         .plans .button{
-            text-align: center;
-            padding: 1.5rem 0;
-            font-size: 0.8rem;
-         }
-         .plans .btn{
-             padding: 0.5rem 3rem;
-             font-size: small;
-         }
-         .price{
-             font-weight: 900;
-         }
-         .period{
-             color: gray;
-         }
-         hr{
-             color: gray;
-             width: 4rem;
-             position: relative;
-             left: 1rem;
-             margin:2rem;
-             
-         }
-        .plans h4{
-            margin: 1rem;
-        }
-         .highlights i{
-             color:royalblue;
-         }
-            /* enterpirse */
-.card.wide {
-            width: 60.3rem;
-            font-size: small;
-}
-        .card.wide .btn{
-            text-align: right;
-        }
-        .column.text_large{
-        width: 60%;
-        }
-        .card.wide p{
-            margin: 1rem;
-        }
-        /* Partner Section */
-        .partner .row{
-            padding-top: 5rem;
-        }
-        .partner .column{
-            width: 50%;
-            height: 400px;
-        }
-            .partner img{
-                height: 350px;
-                margin: 1rem 1rem;
-            }
-            .partner p{
-                margin: 1rem;
-            }
-            .partner .button{
-                margin: 2rem 1rem;
-            }
-        /* Functions section */
-        .functions_title h2{
-            margin-top: 4rem;
+    }
+    li{
+    margin: 1rem 0;
+    }
+    .price{
+        font-weight: 900;
+    }     
+    hr{
+        color: gray;
+        width: 50px;     
+    }
+    .highlights i{
+        color:royalblue;
+    }
+    /* enterpirse */
 
-        }
-        .column.function {
-        width: 33.3%;
-        margin-top: 4rem;
-        padding: 0 1rem;
-        }
-            .column.function img{
-                 width: 100%;
-            }
-            .column.function h4{
-                margin-bottom: 2rem;
-                font-size: 1.7rem;
-            }
-            .column.function p{
-                font-size: 1.1rem;
-            }
+    .card.wide { 
+        width: 100%;
+    }
+    .card.wide .btn{
+        text-align: right;
+        font-size: 3pxpx;
+    }
+        
+/* Partner Section * 
+********************/
+.partner .row{
+    padding-top: 5rem;
+}
+    .partner img{
+        height: 400px;
+    }
+    .partner .text{
+            padding: 20px 0 0 20px;
+    }
+/* Functions section *
+**********************/
+.col_33.function {
+    margin-top: 4rem;
+    padding: 0 1rem;
+}
+.col_33.function img{
+    width: 100%;
+}
+            
