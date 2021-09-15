@@ -106,8 +106,9 @@ body{
 }
 
 /*****************************
-********Main site************/
-
+********Main site************/ /* Usare piu selettori avanzati specialmente per radice nome.
+    	                        troppi <h> e <p> con proporzioni simili non raggruppati */
+                                /* APPLICARE UNA REGOLA COMUNE PER STRUTTURA RIGA-COLONNA!!!! */
             /* Hero section */
 .section.hero{
     background-color: #B4D0E7;
@@ -237,4 +238,22 @@ body{
             }
             .partner .button{
                 margin: 2rem 1rem;
+            }
+        /* Functions section */
+        .functions_title h2{
+            margin: 4rem 0 2rem 0;
+
+        }
+        .column.function {
+        width: 33.3%;
+        }
+            .column.function img{
+                 width: 100%;
+            }
+            .column.function h4{
+                margin-bottom: 2rem;
+                font-size: 1.7rem;
+            }
+            .column.function p{
+                font-size: 1.1rem;
             }
