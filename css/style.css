@@ -131,9 +131,15 @@ a{
 .full{
         height: 10px;
         width: 10px;
-        
+        cursor: pointer;      
 }
-
+.crc:hover{
+    cursor: pointer;
+}
+.list_inline li{
+    display: inline;
+    margin: 1rem; 
+}
 /*********COLOR UTILITY **************
 ********************************/
 /* color */
@@ -188,7 +194,7 @@ a{
 
 /********* Header **************
 *******************************/
-#siteheader{
+/* #siteheader{
     position: fixed;
     top: 0;
     width: 100%;
@@ -219,10 +225,37 @@ a{
 .start{
     width: 7%;
     padding: 1rem;
+} */
+nav{
+    background-color: white;
+    
+    line-height: 80px;
+    position: fixed;
+    width: 100%;
+    min-width: 1500px;
 }
-
-
-
+nav ul, .logo, .primary_btn{
+    display: inline-block;
+}
+.menu_left{
+   margin-left: 50px;
+    
+}
+.menu_right{
+    margin-right: 50px;
+}
+nav a{
+    color: black;
+    
+}
+.primary_btn .btn{
+    padding: 0.5rem 1rem;
+    margin-left: 1.5rem;
+}
+.logo img{    
+    vertical-align: sub;
+    margin-right: 1.5rem;
+}
 /*****************************
 ********Main site************
 *****************************/ /* Usare piu selettori avanzati specialmente per radice nome.
@@ -233,7 +266,7 @@ a{
 
 .section.hero{
     background-color: #B4D0E7;
-    padding-top: 3rem;
+    padding-top: 8rem;
 }
 .hero_title{
     
