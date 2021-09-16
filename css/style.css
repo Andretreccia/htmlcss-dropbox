@@ -256,6 +256,10 @@ nav a{
     vertical-align: sub;
     margin-right: 1.5rem;
 }
+nav li:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 1.5rem;
+}
 /*****************************
 ********Main site************
 *****************************/ /* Usare piu selettori avanzati specialmente per radice nome.
